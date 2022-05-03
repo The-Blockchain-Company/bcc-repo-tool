@@ -6,4 +6,4 @@ packages:
 source-repository-package
   type: git
   location: https://github.com/the-blockchain-company/nix-archive
-  tag: 7dcf21b2af54d0ab267f127b6bd8fa0b31cfa49d
+  tag: c21950a2a7bbf859236e04b1d0a4e6163c918c28

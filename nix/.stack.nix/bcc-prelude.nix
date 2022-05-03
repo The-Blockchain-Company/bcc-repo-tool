@@ -5,7 +5,7 @@
       specVersion = "1.10";
       identifier = { name = "bcc-prelude"; version = "0.1.0.0"; };
       license = "MIT";
-      copyright = "2018 TBCO";
+      copyright = "2022 TBCO";
       maintainer = "operations@tbco.io";
       author = "TBCO";
       homepage = "";

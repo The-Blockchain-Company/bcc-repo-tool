@@ -5,7 +5,7 @@
       specVersion = "2.4";
       identifier = { name = "nix-archive"; version = "0.1.0.0"; };
       license = "Apache-2.0";
-      copyright = "(c) 2020 TBCO";
+      copyright = "(c) 2022 TBCO";
       maintainer = "operations@tbco.io";
       author = "TBCO Engineering Team";
       homepage = "";
@@ -52,7 +52,7 @@
     } // { #TODO
     src = (pkgs.lib).mkDefault (pkgs.fetchgit {
       url = "https://github.com/the-blockchain-company/nix-archive";
-      rev = "6ec16124fa060818b2dbd4b6e99b0ce4906c59e6";
-      sha256 = "0waldaw2yz9hhdlk8f8gmd37z4cgl5p3i3v6np1h9ydz4jnbbfm1";
+      rev = "c21950a2a7bbf859236e04b1d0a4e6163c918c28";
+      sha256 = "b54ea61851d78fde902925e063ebbd2427d9d9eee217714bcac7b1e534cb5caf";
       });
     }
