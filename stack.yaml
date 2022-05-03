@@ -1,0 +1,14 @@
+resolver: lts-13.26
+compiler: ghc-8.6.5
+
+packages:
+  - .
+
+extra-deps:
+
+  - optparse-applicative-0.15.1.0
+  - quiet-0.2
+  - transformers-except-0.1.1
+
+  - git: https://github.com/the-blockchain-company/nix-archive
+    commit: a769a43867a8c93f1cabc554598eeb1e4e6c45e2

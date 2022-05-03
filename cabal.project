@@ -1,0 +1,9 @@
+index-state: 2022-02-18T04:41:11Z
+
+packages:
+  ./
+
+source-repository-package
+  type: git
+  location: https://github.com/the-blockchain-company/nix-archive
+  tag: 7dcf21b2af54d0ab267f127b6bd8fa0b31cfa49d
