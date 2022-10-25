@@ -39,7 +39,7 @@
     src = (pkgs.lib).mkDefault (pkgs.fetchgit {
       url = "https://github.com/the-blockchain-company/bcc-base";
       rev = "f6b3923ac0fb162098050f67dcbc31f6d721b22d";
-      sha256 = "cad4e2a98a245caaf81a13a352c0a8e45d398843f49632ec77e582c04ff5286d";
+      sha256 = "0v98ym7w10p5fzn355pl8f43jpg4m30558qk3bwalp14ialy5m6a";
       });
     postUnpack = "sourceRoot+=/binary/test; echo source root reset to \$sourceRoot";
     }

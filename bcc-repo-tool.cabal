@@ -10,7 +10,7 @@ bug-reports:         https://github.com/the-blockchain-company/bcc-repo-tool/iss
 license:             Apache-2.0
 license-file:        LICENSE
 author:              TBCO Engineering Team
-maintainer:          operations@tbco.io
+maintainer:          devops@blockchain-company.io
 copyright:           (c) 2022 TBCO
 -- category:
 build-type:          Simple
@@ -46,6 +46,7 @@ library
                      , directory
                      , filepath
                      , nix-archive
+                     , nix-tools
                      , process
                      , quiet
                      , text

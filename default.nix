@@ -30,6 +30,12 @@ let
     # TODO: Declare packages required by the build.
     # quibitous and cowsay are just examples and should be removed for your
     # project, unless needed.
+    inherit bcc-rosetta;
+    inherit bcc-db-sync;
+    inherit bcc-ledger-specs; 
+    inherit bcc-prelude;
+    inherit bcc-base;
+    inherit nix-tools;
     inherit quibitous;
     inherit (pkgs) cowsay;
     # Provide cross-compiling secret sauce

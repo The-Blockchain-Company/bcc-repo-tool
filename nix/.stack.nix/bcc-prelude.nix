@@ -70,6 +70,6 @@
     src = (pkgs.lib).mkDefault (pkgs.fetchgit {
       url = "https://github.com/the-blockchain-company/bcc-prelude";
       rev = "c1f053a9dbc2763ad2163281a356a2cf0f4d7858";
-      sha256 = "2ca537a554180e15685aac045a7b71655d93544df13382c213575c8718f54e5c";
+      sha256 = "0p2fylc8fp2p2g184czi9ma96pb5f5xml15cb9l1a3hqajjkg99c";
       });
     }
